@@ -1,0 +1,290 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+}
+.page:first-child {
+  padding: 0px;
+}
+.page {
+  margin-bottom: 80px;
+  padding: 0px 30px;
+}
+.navbar {
+  position: sticky;
+  top: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 30px;
+  justify-content: space-between;
+  height: 0px;
+}
+.navbar .btn.btn-gray{
+  outline: none;
+  padding: 5px 4px;
+  border: 0px;
+  border-radius: 10px;
+  background: none;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.navbar  .btn a, .main_content .btn a {
+  text-decoration: none;
+  color: black;
+}
+.navbar .nav_title {
+  outline: none;
+  color: #585656;
+  border-radius: 10px;
+  border: 5px solid #FFFFFF;
+  background-color: #fff; 
+}
+.desk_one {
+  height: 100vh;
+  background-image: url("../imgs/Rivian_frst_pg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  padding: 0px 30px;
+}
+.desk_one .main_desc {
+  margin-top: 100px;
+}
+.main_content {
+  display: flex;
+  justify-content: start;
+  width: 455px;
+  height: 100%;
+}
+.main_content .desc {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.main_content .btn {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  padding: 15px 10px;
+  background-color: rgba(217, 217, 217, 0.7);
+  border-radius: 10px;
+  border: 0px;
+}
+
+.main_desc .btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.desk_two .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.desk_two .row .col{
+  width: 50%;
+}
+.desk_two .row .col:first-child{
+  margin-right: 40px;
+}
+.desk_two .row .col .img{
+  background-image: url("../imgs/Rivian R1S.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 314px;
+  margin: 30px 0px;
+  object-fit: contain;
+}
+
+.desk_two .row .col .img1{
+  background-image: url("../imgs/dealer_Rivian_R1_S.JPG");
+}
+.desk_two .row .col .img2{
+  background-image: url("../imgs/dealer_Rivian_R1_T.jpg");
+}
+.desk_two .row .col .img3{
+  background-image: url("../imgs/dealer_Rivian_R2.JPG");
+}
+.desk_two .row .col .img4{
+  background-image: url("../imgs/dealer_Rivian_R3.JPG");
+}
+
+.desk_two .row .col .title{
+  height: 100px;
+}
+
+.desk_three {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+}
+.desk_three .col  { 
+  width: 50%;
+  height: 813px;
+}
+.desk_three .col:first-child {
+  margin-right: 65px; 
+}
+.desk_three .col:first-child .img {
+  background-image: url("../imgs/Mow_tyanya_1.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+}
+.desk_three .col .img-map{
+  height: 380px;
+  background-image: url("../imgs/mappy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.desk_three .col .img-person {
+  height: 218px;
+  background-image: url("../imgs/climber.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 28px 0px;
+}
+.desk_three .col .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90px;
+  margin: 35px 0px;
+  font-size: 20px;
+}
+.desk_three .col .text-bottom {
+  font-size: 22px;
+}
+
+.desk_four {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+}
+.desk_four .row:first-child{ 
+  height: 85%;
+}
+.desk_four .row {
+  display: flex;
+  flex-direction: row;
+}
+.desk_four .col {
+  width: 50%;
+  height: 100%;
+}
+.desk_four .col .text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  font-size: 19px;
+}
+.desk_four .row .col .img{ 
+  background-image: url("../imgs/Rivian_charger.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.desk_four .row .btn-gray {
+  padding: 8px 20px;
+  background-color: #D9D9D9;
+  font-size: 17px;
+  border: 0px;
+} 
+.desk_four .row:last-child {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.desk_five.page{
+  padding: 0px;
+  height: 100vh;
+}
+.desk_five .img{
+  background-image: url("../imgs/Rivian_free.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.footer {
+  height: 100vh;
+}
+.footer .row{
+  padding: 40px 20px;
+}
+.footer .black{
+  background-color: #0A0909;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 20%;
+}
+.footer .black .btn{ 
+  padding: 8px 24px;
+  background-color: #D9D9D9;
+  font-size: 17px;
+  border: 0px;
+}
+.footer .black .col:first-child {
+  font-size: 18px;
+}
+.footer .black:last-child .col{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer .black:last-child .col .col {
+  margin-right: 25px;
+  font-size: 14px;
+  color: white;
+}
+.footer .gray{
+  height: 60%;
+  background-color: #464646;
+}
+.footer .gray .row, .footer .gray .row a {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  color: white;
+  font-size: 22px;
+  height: 100%;
+  text-decoration: none;
+}
+.footer .gray .row .col:first-child{
+  font-size: 20px;
+  color: white;
+}
+.footer .gray .row .col .col{
+  margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+.btn {
+  cursor: pointer;
+}
+.remove_underline {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar {
+    background-color: red;
+    cursor: pointer;
+  }
+}

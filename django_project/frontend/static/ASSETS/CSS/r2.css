@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  body{
+    background: #a5a7a4;
+  }
+  ::selection{
+    background: rgba(80, 243, 5, 0.3);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .container_img {
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 95vh;
+  }
+  .container_img .img {
+    background-image: url("../imgs/dealer_Rivian_R2.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 80%;
+
+  }
+  .R1{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .deskript {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .btnbuy button a {
+    font-size: 18px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+    text-decoration: none;
+    
+  }
